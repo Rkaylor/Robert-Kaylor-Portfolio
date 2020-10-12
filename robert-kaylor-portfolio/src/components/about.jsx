@@ -7,14 +7,15 @@ class About extends React.Component {
     this.state = {
       skills: [
         { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
+        { id: "CSS_skill", content: "CSS", porcentage: "75%", value: "75" },
+        { id: "Bootstrap_skill", content: "Bootstrap", porcentage: "70%", value: "70" },
         {
           id: "JavaScript_skill",
           content: "JavaScript",
           porcentage: "90%",
           value: "90"
         },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
+      
         {
           id: "ReactJS_skill",
           content: "ReactJS",
@@ -22,20 +23,20 @@ class About extends React.Component {
           value: "80"
         },
         {
-          id: "Python_skill",
-          content: "Python",
+          id: "NodeJS_Skill",
+          content: "NodeJS",
           porcentage: "75%",
           value: "75"
         },
         {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
+          id: "Mysql_Skill",
+          content: "Mysql",
           porcentage: "85%",
           value: "85"
         },
         {
-          id: "Wordpress_skill",
-          content: "Wordpress",
+          id: "MongoDB_Skill",
+          content: "MongoDB",
           porcentage: "80%",
           value: "80"
         }
@@ -44,18 +45,18 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "Full Stack Web Developer with a background in Business  and life-long dedication to learning. Effective at combining creativity and problem solving to develop user-friendly applications. My colleagues past and present would view me I think as a source of encouragement. I'm always trying to bring out the best in me and others, and to see that our goals are accomplished. Throughout my recent projects I’ve found myself taking a team lead position, and whether it pushed me to work far beyond my time or ability, I made sure that our goals were achieved and we finished with a product that we all felt proud of. "
         },
-        {
-          id: "second-p-about",
-          content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        },
-        {
-          id: "third-p-about",
-          content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        }
+        // {
+        //   id: "second-p-about",
+        //   content:
+        //     "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+        // },
+        // {
+        //   id: "third-p-about",
+        //   content:
+        //     "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+        // }
       ]
     };
   }

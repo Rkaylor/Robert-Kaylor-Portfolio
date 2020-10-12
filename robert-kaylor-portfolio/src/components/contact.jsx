@@ -103,9 +103,7 @@ class Contact extends React.Component {
                       </div>
                       <div className="more-info">
                         <p className="lead">
-                          Whether you want to get in touch, talk about a project
-                          collaboration, or just say hi, I'd love to hear from
-                          you.
+                           Contact me! If you would like to contact me through linkedin or see my github follow the links below!
                           <br />
                           Simply fill the from and send me an email.
                         </p>
@@ -130,7 +128,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://github.com/Rkaylor"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -141,7 +139,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://www.linkedin.com/in/robert-kaylor12/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
