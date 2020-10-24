@@ -7,6 +7,9 @@ import stock2 from "../img/image3.jpg";
 import stock3 from "../img/image4.jpg";
 import stock4 from "../img/image5.jpg";
 import stock5 from "../img/image6.jpg";
+import project1 from "../img/image1.png";
+import project2 from "../img/image2.png";
+import project3 from "../img/image3.png"
 
 class Portfolio extends React.Component {
   render() {
@@ -18,8 +21,7 @@ class Portfolio extends React.Component {
               <div className="title-box text-center">
                 <h3 className="title-a">Portfolio</h3>
                 <p className="subtitle-a">
-                  Incididunt nostrud id aute culpa excepteur pariatur consequat
-                  elit culpa nulla enim anim incididunt.
+                  These are my currently completed projects!
                 </p>
                 <div className="line-mf"></div>
               </div>
@@ -28,17 +30,17 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-vmarine">
+                <a href={project1} data-lightbox="gallery-vmarine">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={project1} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Covid Tracker</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap ReactJS
+                            HTML5, CSS3, Bootstrap 
                           </span>
                         </div>
                       </div>
@@ -50,6 +52,7 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
+                <a className="text-center" href="https://stovencrantz.github.io/CoVid-19-Tracker/">Visit the Page!</a>
                 <a
                   href={stock1}
                   data-lightbox="gallery-vmarine"
@@ -89,18 +92,17 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-aguadeluz">
+                <a href={project2} data-lightbox="gallery-aguadeluz">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={project2} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Trivia Tastic </h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap Webpack SmoothScrolling
-                            VanillaJS
+                          HTML5, CSS3, Bootstrap, Javascript, jQuery,  node.js, mySql, Sequelize.  
                           </span>{" "}
                         </div>
                       </div>
@@ -112,8 +114,10 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
+                <a className="text-center" href="https://high-score-quiz-game.herokuapp.com/">Visit the Page!</a>
+
                 <a
-                  href={stock1}
+                  href={project1}
                   data-lightbox="gallery-aguadeluz"
                   style={{ display: "none" }}
                 >
@@ -151,18 +155,17 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-todo">
+                <a href={project3} data-lightbox="gallery-todo">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={project3} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Game Cafe</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap Webpack ReactJS
-                          </span>
+                          React.js, Javascript, CSS3, SCSS, Bootstrap, MongoDB, Mongoose, Firebase                           </span>
                           {/*} / <span className="w-date">18 Sep. 2018</span>*/}
                         </div>
                       </div>
@@ -174,6 +177,8 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
+                <a className="text-center" href="https://game-n-chat.herokuapp.com/">Visit the Page!</a>
+
                 <a
                   href={stock1}
                   data-lightbox="gallery-todo"
@@ -220,10 +225,10 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Future Projects</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            Bootstrap ReactJS GoogleAPI
+                            
                           </span>
                         </div>
                       </div>
@@ -281,9 +286,9 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Future Projects</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">MERN</span>
+                          <span className="w-ctegory"></span>
                         </div>
                       </div>
                       <div className="col-sm-4">
@@ -340,10 +345,10 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Future Projects</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap MERN
+                           
                           </span>
                         </div>
                       </div>
