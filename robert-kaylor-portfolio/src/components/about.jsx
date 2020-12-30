@@ -6,39 +6,57 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS_skill", content: "CSS", porcentage: "75%", value: "75" },
-        { id: "Bootstrap_skill", content: "Bootstrap", porcentage: "70%", value: "70" },
+        // { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
+        // { id: "CSS_skill", content: "CSS", porcentage: "75%", value: "75" },
+        // { id: "Bootstrap_skill", content: "Bootstrap", porcentage: "70%", value: "70" },
+        {
+          id: "HTML_skill",
+          content: "HTML5",
+          // porcentage: "90%",
+          // value: "90"
+        },
+        {
+          id: "CSS_skill",
+          content: "CSS",
+          // porcentage: "90%",
+          // value: "90"
+        },
+        {
+          id: "Bootstrap_skill",
+          content: "Bootstrap",
+          // porcentage: "90%",
+          // value: "90"
+        },
         {
           id: "JavaScript_skill",
           content: "JavaScript",
-          porcentage: "90%",
-          value: "90"
+          // porcentage: "90%",
+          // value: "90"
         },
       
         {
           id: "ReactJS_skill",
           content: "ReactJS",
-          porcentage: "80%",
-          value: "80"
+          // porcentage: "80%",
+          // value: "80"
         },
         {
           id: "NodeJS_Skill",
           content: "NodeJS",
-          porcentage: "75%",
-          value: "75"
+          // porcentage: "75%",
+          // value: "75"
         },
         {
           id: "Mysql_Skill",
           content: "Mysql",
-          porcentage: "85%",
-          value: "85"
+          // porcentage: "85%",
+          // value: "85"
         },
         {
           id: "MongoDB_Skill",
           content: "MongoDB",
-          porcentage: "80%",
-          value: "80"
+          // porcentage: "80%",
+          // value: "80"
         }
       ],
       about_me: [

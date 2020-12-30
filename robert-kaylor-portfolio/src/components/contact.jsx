@@ -104,8 +104,9 @@ class Contact extends React.Component {
                       <div className="more-info">
                         <p className="lead">
                            Contact me! If you would like to contact me through linkedin or see my github follow the links below!
+                           
                           <br />
-                          Simply fill the from and send me an email.
+                          Contact me directly at rkaylor23@gmail.com
                         </p>
                         {/* <!-- <ul class="list-ico">
                                 <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
