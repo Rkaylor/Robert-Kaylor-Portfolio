@@ -106,7 +106,7 @@ class Contact extends React.Component {
                            Contact me! If you would like to contact me through linkedin or see my github follow the links below!
                            
                           <br />
-                          Contact me directly at rkaylor23@gmail.com
+                          Contact me directly at <strong> rkaylor23@gmail.com</strong>
                         </p>
                         {/* <!-- <ul class="list-ico">
                                 <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>

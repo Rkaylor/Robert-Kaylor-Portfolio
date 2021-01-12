@@ -9,7 +9,10 @@ import stock4 from "../img/image5.jpg";
 import stock5 from "../img/image6.jpg";
 import project1 from "../img/image1.png";
 import project2 from "../img/image2.png";
-import project3 from "../img/image3.png"
+import project3 from "../img/image3.png";
+import project4 from "../img/project4.png";
+import project5 from "../img/project5.png";
+import project6 from "../img/project6.png";
 
 class Portfolio extends React.Component {
   render() {
@@ -39,6 +42,7 @@ class Portfolio extends React.Component {
                       <div className="col-sm-8">
                         <h2 className="w-title">Covid Tracker</h2>
                         <div className="w-more">
+                        <p>This page is meant to give the user access to information about the current pandemic.</p>
                           <span className="w-ctegory">
                             HTML5, CSS3, Bootstrap 
                           </span>
@@ -52,7 +56,9 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-                <a className="text-center" href="https://stovencrantz.github.io/CoVid-19-Tracker/">Visit the Page!</a>
+                <a className="float-left" href="https://github.com/Stovencrantz/CoVid-19-Tracker">Repository</a>
+                
+                <a className="float-right" href="https://stovencrantz.github.io/CoVid-19-Tracker/">Visit the Page!</a>
                 <a
                   href={stock1}
                   data-lightbox="gallery-vmarine"
@@ -101,6 +107,7 @@ class Portfolio extends React.Component {
                       <div className="col-sm-8">
                         <h2 className="w-title">Trivia Tastic </h2>
                         <div className="w-more">
+                          <p>a quiz game where you can track your score against friends.</p>
                           <span className="w-ctegory">
                           HTML5, CSS3, Bootstrap, Javascript, jQuery,  node.js, mySql, Sequelize.  
                           </span>{" "}
@@ -114,7 +121,8 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-                <a className="text-center" href="https://high-score-quiz-game.herokuapp.com/">Visit the Page!</a>
+                <a className="float-left" href="https://github.com/chrisfaux95/trivatastic">Repository</a>
+                <a className="float-right" href="https://high-score-quiz-game.herokuapp.com/">Visit the Page!</a>
 
                 <a
                   href={project1}
@@ -164,8 +172,9 @@ class Portfolio extends React.Component {
                       <div className="col-sm-8">
                         <h2 className="w-title">Game Cafe</h2>
                         <div className="w-more">
+                          <p>A react.js page where you can play games and enter a chat room to talk to other players.</p>
                           <span className="w-ctegory">
-                          React.js, Javascript, CSS3, SCSS, Bootstrap, MongoDB, Mongoose, Firebase                           </span>
+                          React.js Javascript CSS3 SCSS Bootstrap MongoDB Mongoose Firebase                           </span>
                           {/*} / <span className="w-date">18 Sep. 2018</span>*/}
                         </div>
                       </div>
@@ -177,7 +186,8 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-                <a className="text-center" href="https://game-n-chat.herokuapp.com/">Visit the Page!</a>
+                <a className="float-left" href="hhttps://github.com/chrisfaux95/trivatastic">Repository</a>
+                <a className="float-right" href="https://game-n-chat.herokuapp.com/">Visit the Page!</a>
 
                 <a
                   href={stock1}
@@ -218,16 +228,18 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-medlingos">
+                <a href={project4} data-lightbox="gallery-medlingos">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={project4} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Future Projects</h2>
+                        <h2 className="w-title">React Employee Directory </h2>
                         <div className="w-more">
+                          <p>Employee Directory is a Fullstack React.js application that allows the user to filter employees dynamically using a filter.</p>
                           <span className="w-ctegory">
+                          Javascript CSS Bootstrap React.js
                             
                           </span>
                         </div>
@@ -235,11 +247,14 @@ class Portfolio extends React.Component {
                       <div className="col-sm-4">
                         <div className="w-like">
                           <span className="ion-ios-plus-outline"></span>
+
                         </div>
                       </div>
                     </div>
                   </div>
                 </a>
+                <a className="float-left" href="https://github.com/Rkaylor/react-employee-directory">Repository</a>
+                <a className="float-right" href="https://rkaylor.github.io/react-employee-directory/">Visit the Page!</a>
                 <a
                   href={stock1}
                   data-lightbox="gallery-medlingos"
@@ -279,16 +294,18 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-smth">
+                <a href={project5} data-lightbox="gallery-smth">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={project5} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Future Projects</h2>
+                        <h2 className="w-title">PWA Budget Tracker</h2>
                         <div className="w-more">
+                          <p>Records data of money spent and paid, and if the user is offline its saves the users inputs to be updated </p>
                           <span className="w-ctegory"></span>
+                          HTML CSS Bootstrap 3 Javascript MongoDB Heroku
                         </div>
                       </div>
                       <div className="col-sm-4">
@@ -299,6 +316,8 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
+                <a className="float-left" href="https://pwa-budget-track.herokuapp.com/">Repository</a>
+                <a className="float-right" href="https://github.com/Rkaylor/PWA-budget-tracker">Visit the Page!</a>
                 <a
                   href={stock1}
                   data-lightbox="gallery-smth"
@@ -338,17 +357,18 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-mf">
+                <a href={project6} data-lightbox="gallery-mf">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={project6} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Future Projects</h2>
+                        <h2 className="w-title">Work Day Scheduler</h2>
                         <div className="w-more">
+                        <p>This day planner allows you to enter tasks during regular business hours.</p>
                           <span className="w-ctegory">
-                           
+                          HTML CSS Bootstrap Javascript
                           </span>
                         </div>
                       </div>
@@ -360,6 +380,8 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
+                <a className="float-left" href="https://github.com/Rkaylor/Work-Day-Scheduler">Repository</a>
+                <a className="float-right" href="https://rkaylor.github.io/Work-Day-Scheduler/">Visit the Page!</a>
                 <a
                   href={stock1}
                   data-lightbox="gallery-mf"
