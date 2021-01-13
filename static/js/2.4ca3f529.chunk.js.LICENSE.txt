@@ -1,27 +1,8 @@
-/*!
- * jQuery JavaScript Library v3.4.1
- * https://jquery.com/
- *
- * Includes Sizzle.js
- * https://sizzlejs.com/
- *
- * Copyright JS Foundation and other contributors
- * Released under the MIT license
- * https://jquery.org/license
- *
- * Date: 2019-05-01T21:04Z
- */
-
-/*!
-   * Sizzle CSS Selector Engine v2.3.4
-   * https://sizzlejs.com/
-   *
-   * Copyright JS Foundation and other contributors
-   * Released under the MIT license
-   * https://js.foundation/
-   *
-   * Date: 2019-04-08
-   */
+/*
+    object-assign
+    (c) Sindre Sorhus
+    @license MIT
+    */
 
 /*
 object-assign
@@ -39,49 +20,54 @@ object-assign
      * 
      */
 
-/** @license React v16.8.4
-     * react-is.production.min.js
-     *
-     * Copyright (c) Facebook, Inc. and its affiliates.
-     *
-     * This source code is licensed under the MIT license found in the
-     * LICENSE file in the root directory of this source tree.
-     */
+/*!
+   * Sizzle CSS Selector Engine v2.3.5
+   * https://sizzlejs.com/
+   *
+   * Copyright JS Foundation and other contributors
+   * Released under the MIT license
+   * https://js.foundation/
+   *
+   * Date: 2020-03-14
+   */
 
-/** @license React v16.8.4
-     * react-is.development.js
-     *
-     * Copyright (c) Facebook, Inc. and its affiliates.
-     *
-     * This source code is licensed under the MIT license found in the
-     * LICENSE file in the root directory of this source tree.
-     */
+/*!
+  * Bootstrap v4.5.3 (https://getbootstrap.com/)
+  * Copyright 2011-2020 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+  */
 
-/*
-    object-assign
-    (c) Sindre Sorhus
-    @license MIT
-    */
-
-/** @license React v16.8.6
- * react.production.min.js
+/*!
+ * Lightbox v2.11.3
+ * by Lokesh Dhakar
  *
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * More info:
+ * http://lokeshdhakar.com/projects/lightbox2/
  *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
+ * Copyright Lokesh Dhakar
+ * Released under the MIT license
+ * https://github.com/lokesh/lightbox2/blob/master/LICENSE
+ *
+ * @preserve
  */
 
-/** @license React v16.8.6
- * react-dom.production.min.js
+/*!
+ * jQuery JavaScript Library v3.5.1
+ * https://jquery.com/
  *
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Includes Sizzle.js
+ * https://sizzlejs.com/
  *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
+ * Copyright JS Foundation and other contributors
+ * Released under the MIT license
+ * https://jquery.org/license
+ *
+ * Date: 2020-05-04T22:49Z
  */
 
-/** @license React v0.13.6
+/*! jQuery v3.5.1 | (c) JS Foundation and other contributors | jquery.org/license */
+
+/** @license React v0.19.1
  * scheduler.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -90,17 +76,45 @@ object-assign
  * LICENSE file in the root directory of this source tree.
  */
 
-/*! jQuery v3.4.1 | (c) JS Foundation and other contributors | jquery.org/license */
+/** @license React v16.14.0
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
 
-/*!
-  * Bootstrap v4.3.1 (https://getbootstrap.com/)
-  * Copyright 2011-2019 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
-  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
-  */
+/** @license React v16.14.0
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.9.0
+     * react-is.development.js
+     *
+     * Copyright (c) Facebook, Inc. and its affiliates.
+     *
+     * This source code is licensed under the MIT license found in the
+     * LICENSE file in the root directory of this source tree.
+     */
+
+/** @license React v16.9.0
+     * react-is.production.min.js
+     *
+     * Copyright (c) Facebook, Inc. and its affiliates.
+     *
+     * This source code is licensed under the MIT license found in the
+     * LICENSE file in the root directory of this source tree.
+     */
 
 /**!
  * @fileOverview Kickass library to create and place poppers near their reference elements.
- * @version 1.15.0
+ * @version 1.16.1
  * @license
  * Copyright (c) 2016 Federico Zivolo and contributors
  *
@@ -121,27 +135,4 @@ object-assign
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- */
-
-/*!
- * Lightbox v2.11.0
- * by Lokesh Dhakar
- *
- * More info:
- * http://lokeshdhakar.com/projects/lightbox2/
- *
- * Copyright Lokesh Dhakar
- * Released under the MIT license
- * https://github.com/lokesh/lightbox2/blob/master/LICENSE
- *
- * @preserve
- */
-
-/** @license React v16.8.6
- * react-is.production.min.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
  */
