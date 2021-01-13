@@ -186,7 +186,7 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-                <a className="float-left" href="hhttps://github.com/chrisfaux95/trivatastic">Repository</a>
+                <a className="float-left" href="https://github.com/chrisfaux95/quizchat">Repository</a>
                 <a className="float-right" href="https://game-n-chat.herokuapp.com/">Visit the Page!</a>
 
                 <a
